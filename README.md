@@ -9,7 +9,6 @@
 -   CREATE DATABASE <test_DB_nsme>;
 -   GRANT ALL PRIVILEGES ON DATABASE <DB_name> TO <user_name>;
 -   GRANT ALL PRIVILEGES ON DATABASE <test_DB_name> TO <user_name>;
-    ||||||| 6512863
 
 ## in terminal.
 
@@ -40,9 +39,10 @@
 -   Current Order by user (args: user id)[token required] :GET /orders/userOrders/:id
 -   Completed Orders by user GET /orders/completeduserOrders/:id
 
-the scripts as shown below
-1-"testdb" : to begin testing using the test database
-2-"lint" :to use linter
-3-"prettier" : to use the prettier
-4-"start" : to start the app using nodemon
-5-"down:test" :drop all tables in test database
+# the scripts as shown below
+
+-   "testdb" : to begin testing using the test database
+-   "lint" :to use linter
+-   "prettier" : to use the prettier
+-   "start" : to start the app using nodemon
+-   "down:test" :drop all tables in test database
