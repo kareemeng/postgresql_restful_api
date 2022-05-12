@@ -7,7 +7,7 @@
 - CREATE DATABASE <DB_name>;
 - CREATE DATABASE <test_DB_nsme>;
 - GRANT ALL PRIVILEGES ON DATABASE <DB_name> TO <user_name>;
-- GRANT ALL PRIVILEGES ON DATABASE <test_db_name> TO <user_name>;
+- GRANT ALL PRIVILEGES ON DATABASE <test_DB_name> TO <user_name>;
 
 
 ## API Endpoints
