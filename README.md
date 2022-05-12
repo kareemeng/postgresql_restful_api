@@ -12,24 +12,24 @@
 
 ## API Endpoints
 
-# Products
+### Products
 
 -   Index : GET /products/index
 -   Show GET /products/show/:id
 -   Create POST /products/create
 
-# Users
+### Users
 
 -   Index GET /users/index
 -   Show GET /users/show/:id
 -   Create POST /users/create
 
-# Orders
+### Orders
 
 -   Current Order by user (args: user id)[token required] :GET /orders/userOrders/:id
 -   Completed Orders by user GET /orders/completeduserOrders/:id
 
-# the scripts as shown below
+# scripts
 
 -   "testdb" : to begin testing using the test database
 -   "lint" :to use linter
