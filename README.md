@@ -1,13 +1,14 @@
 # database set up
 
-in terminal.
-1-su postgres
-2-psql postgres
-3-CREATE USER <usder_name> WITH PASSWORD '<your_password>';
-4-CREATE DATABASE <DB_name>;
-5-CREATE DATABASE <test_DB_nsme>;
-6-GRANT ALL PRIVILEGES ON DATABASE <DB_name> TO <user_name>;
-7-GRANT ALL PRIVILEGES ON DATABASE <test_db_name> TO <user_name>;
+## in terminal.
+
+-   su postgres
+-   psql postgres
+-   CREATE USER <usder_name> WITH PASSWORD '<your_password>';
+-   CREATE DATABASE <DB_name>;
+-   CREATE DATABASE <test_DB_nsme>;
+-   GRANT ALL PRIVILEGES ON DATABASE <DB_name> TO <user_name>;
+-   GRANT ALL PRIVILEGES ON DATABASE <test_DB_name> TO <user_name>;
 
 ## API Endpoints
 
